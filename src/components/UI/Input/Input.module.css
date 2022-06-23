@@ -1,26 +1,15 @@
 .control {
-  margin: 1rem 0;
+  margin: 1em;
   display: flex;
-  align-items: stretch;
+  justify-content: center;
   flex-direction: column;
 }
 
-.control label,
 .control input {
   display: block;
-}
-
-.control label {
-  font-weight: bold;
-  flex: 1;
-  color: #464646;
-  margin-bottom: 0.5rem;
-}
-
-.control input {
-  flex: 3;
   font: inherit;
-  padding: 0.35rem 0.35rem;
+  font-size: 0.9rem;
+  padding: 0.35rem 0.25rem;
   border-radius: 6px;
   border: 1px solid #ccc;
 }
