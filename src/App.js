@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <p>Covid Vaccine</p>
+      <p> Covid Vaccine </p>
     </div>
   );
 }
