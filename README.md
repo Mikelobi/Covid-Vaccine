@@ -21,7 +21,7 @@
 
 ## Live Link
 
-[African Covid Vaccination](https://african-covidvaccine.netlify.app//)
+[African Covid Vaccination](https://african-covidvaccine.netlify.app/)
 
 ## Demo Video
 
