@@ -33,10 +33,10 @@ const passwordReducer = (state, action) => {
     case 'USER_PASSWORD':
       return {
         value: action.payload,
-        isValid: action.payload.trim().length > 6,
+        isValid: action.payload.trim().length > 8,
       };
     case 'INPUT_BLUR':
-      return { value: state.value, isValid: state.value.trim().length > 6 };
+      return { value: state.value, isValid: state.value.trim().length > 8 };
 
     default:
       return { value: '', isValid: false };
@@ -99,8 +99,10 @@ const Login = () => {
       authCtx.onLogin(emailState.value, passwordState.value);
     } else if (!emailIsValid) {
       emailInputRef.current.focus();
+      alert('please enter a valid email');
     } else {
       passwordInputRef.current.focus();
+      alert('please enter a password of more than 8 characters');
     }
   };
 

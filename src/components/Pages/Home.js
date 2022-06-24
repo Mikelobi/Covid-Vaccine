@@ -53,19 +53,19 @@ const Home = () => {
           />
         </div>
         <div className={classes.innercontent}>
-          <h1>Africa Vaccine Stats</h1>
+          <h1>African Vaccine Statistics</h1>
           <p>
-            Total Vaccines Administed:
+            Total Vaccines Administered:
             {' '}
             {totalVacinated()}
           </p>
           <p>
-            Fully Vaccinated Individuals:
+            Fully Vaccinated People:
             {' '}
             {fullyVacinated()}
           </p>
           <p>
-            Partially Vaccinated Individuals:
+            Partially Vaccinated People:
             {' '}
             {partiallyVacinated()}
           </p>
@@ -76,22 +76,22 @@ const Home = () => {
           Africa COVID Vaccine Data
         </h2>
         <div className={classes.inputDiv}>
-          <label htmlFor="Search" className={`${classes.field} ${classes.field_v1}`}>
+          <label htmlFor="Filter" className={`${classes.field} ${classes.field_v1}`}>
             <input
               className={`${classes.field__input} ${classes.field__inputs}`}
               type="text"
-              name="search"
+              name="filter"
               value={searchValue}
               onChange={filterCountriesHandler}
-              placeholder="e.g. Kenya"
+              placeholder="e.g. Nigeria"
             />
             <span className={`${classes['field__label-wrap']}`}>
-              <span className={`${classes.field__label}`}>Search Country</span>
+              <span className={`${classes.field__label}`}>Filter Country</span>
             </span>
           </label>
         </div>
 
-        <div>
+        <div className={`${classes.homeContent}`}>
           <CountriesList searchValue={searchValue} />
         </div>
       </section>
