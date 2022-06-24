@@ -109,7 +109,7 @@
   width: 100%;
   height: 3rem;
   padding: 1.25rem 1rem 0.5rem 1rem;
-  border-bottom: solid #fff;
+  border-bottom: 0.1rem solid #fff;
 }
 
 .field__input::-webkit-input-placeholder {
@@ -150,7 +150,7 @@
   position: absolute;
   left: var(--uiFieldPaddingLeft);
   top: calc(50% - 0.5em);
-  line-height: 1;
+  line-height: 1.5;
   font-size: var(--fieldHintFontSize, inherit);
   transition:
     top 0.2s cubic-bezier(0.9, -0.15, 0.1, 1.15),

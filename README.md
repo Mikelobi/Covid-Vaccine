@@ -25,7 +25,7 @@
 
 ## Demo Video
 
-Comming soon
+[React Capstone Presentation](https://www.loom.com/share/8ea96c9066c44e58847303e08e739aae)
 
 ## Built With
 
