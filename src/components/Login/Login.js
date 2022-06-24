@@ -99,9 +99,11 @@ const Login = () => {
       authCtx.onLogin(emailState.value, passwordState.value);
     } else if (!emailIsValid) {
       emailInputRef.current.focus();
+      // eslint-disable-next-line
       alert('please enter a valid email');
     } else {
       passwordInputRef.current.focus();
+      // eslint-disable-next-line
       alert('please enter a password of more than 8 characters');
     }
   };
