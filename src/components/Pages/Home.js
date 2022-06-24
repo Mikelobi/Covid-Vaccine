@@ -53,7 +53,7 @@ const Home = () => {
           />
         </div>
         <div className={classes.innercontent}>
-          <h1>Africa Vaccine Stats</h1>
+          <h1>African Vaccine Stats</h1>
           <p>
             Total Vaccines Administed:
             {' '}
