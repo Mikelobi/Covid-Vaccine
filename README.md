@@ -21,7 +21,7 @@
 
 ## Live Link
 
-[Covic Vaccine Data for African Continent](https://covid-vaccine-watch.herokuapp.com/)
+[African Covid Vaccination](https://african-covidvaccine.netlify.app//)
 
 ## Demo Video
 
