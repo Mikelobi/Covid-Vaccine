@@ -17,7 +17,7 @@
 
 <h1 align="center">Covid Vaccines</h1>
 
-> A mobile web application that collects information from an API to provide comprehensive data for the novel coronavirus in Africa. Real live data is obtained from the MMediaGroup API.
+> A mobile web application that collects information from an API to provide comprehensive data for the novel coronavirus in Africa. The real live data is obtained from the MMediaGroup API.
 
 ## Live Link
 
